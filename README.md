@@ -1,1 +1,68 @@
-# a.newspace
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3 Homework</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend><b>Request Form</b></legend>
+                <h2><i>User Information</i></h2>
+                <label for="date">Request Date Time</label>
+                <input type="text" value="2021/06/04 12:00AM" id="date" disabled>
+                <br>
+                <br>
+                <label for="username">Username :</label>
+                <input type="text" placeholder="john1234" id="username" required >
+                <br>
+                <br>
+                <label for="password">Password :</label>
+                <input type="password" id="password">
+                <br>
+                <br>
+                <label for="age">Age :</label>
+                <input type="number" id="age">
+                <br>
+                <br>
+                <label for="gender">Gender :</label>
+                <select name="gender" id="gender">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="education">Education :</label>
+                <input type="radio" name="education">Under Graduated
+                <input type="radio" name="education">Graduated
+                <input type="radio" name="education">Master
+                <br>
+                <br>
+                <label for="card">Card :</label>
+                <input type="checkbox" id="card">Car License
+                <input type="checkbox" id="card">Passport
+                <input type="checkbox" id="card" checked>NRC
+                <br>
+                <br>
+                <label for="hobby">Hobby :</label>
+                <datalist id="hobby">
+                    <option value="">Football</option>
+                    <option value="">Gamer</option>
+                    <option value="">Reading</option>
+                    <option value="">Developer</option>
+                </datalist>
+                <br>
+                <br>
+                <label for="photo">Upload Your Profile</label>
+                <input type="file">
+                <br>
+                <br>
+                <label for="address">Address :</label>
+                <textarea id="address" cols="20" rows="2"></textarea>
+                <br>
+                <br>
+                <input type="reset" value="Default">
+                <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
