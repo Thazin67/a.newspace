@@ -1,0 +1,70 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1{
+    text-align: center;
+    background-color: #6a45d8;
+    height: 50px;
+    white-space: nowrap;
+}
+.s1,.s2,.s3,.s4{
+  
+    margin: 10px 100px 10px 100px;
+    color: white;
+}
+
+.button{
+    text-align: center;
+    background-color: #6a45d8;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 10px 100px 10px 100px;
+}
+
+.t1,.t2,.t3,.t4{
+    margin: 50px 100px 20px 100px;
+    padding: 5px 50px 30px 10px;
+    text-align: center;
+    background-color: #6a45d8;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: large;
+    line-height: 30px;
+    height: 200px;
+    width: 300px;
+}
+
+.copy{
+    background-color: #6a45d8;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: aliceblue;
+    text-decoration: solid;
+}
+
+.p1,.p2,.p3,.p4{
+    text-decoration: underline;
+    color: gold;
+}
+
+.f1{
+    color: Rgb(197,47,47);
+}
+.f2,.h3,.e4{
+    color: gold;
+}
+
+.b1,.b2,.b3,.b4{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    color: gold;
+    
+}
+
+div{
+    color: white;
+}
